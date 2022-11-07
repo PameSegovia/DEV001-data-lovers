@@ -25,3 +25,7 @@ data.pokemon.forEach( (pokemon, i) =>{
 //FUNCION CREAR TARJETAS POKEMÓN
 
  
+//data.pokemon.forEach((pokemon) => {
+
+  //  contenedorPpal(pokemon)
+//})
