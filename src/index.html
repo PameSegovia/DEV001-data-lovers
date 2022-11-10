@@ -7,54 +7,48 @@
   <title>Data Lovers</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+   
   </header>
   <!-- Primera Pantalla -->
   <div id="contenedor1" class="contenedor1">
     <div class="bienvenida">
-    <img class="imagenUno"
-      src="https://fontmeme.com/permalink/221109/42381b5f3866d5e0230c6a8063f2d724.png">
-    <img class="imagenDos"
-      src="https://fontmeme.com/permalink/221109/b3ef3cabd9dd2f9377a61e7678502057.png">
-    <button type="submit" id="conocerMas" class="styleBtn1"><strong>Conoce todos los Pokémones</strong></button>
+      <img class="imagenUno" src="https://fontmeme.com/permalink/221109/42381b5f3866d5e0230c6a8063f2d724.png">
+      <img class="imagenDos" src="https://fontmeme.com/permalink/221109/b3ef3cabd9dd2f9377a61e7678502057.png">
+      <button type="submit" id="conocerMas" class="styleBtn1"><strong>Conoce todos los Pokémones</strong></button>
     </div>
-      <img class="imagenPikachu"
+    <img class="imagenPikachu"
       src="https://i0.wp.com/eltallerdehector.com/wp-content/uploads/2022/06/932c7-pikachu-saltando-png.png?resize=900%2C900&ssl=1">
     <!---<img class="imagenDos" 
     src="https://www.pngmart.com/files/12/Pokemon-Ash-Ketchum-PNG-HD.png">-->
- 
+
   </div>
 
   <!-- Segunda Pantalla, mostrando todos los pokemones -->
-  <input type="search" id="input-search" class="input" placeholder="Buscar Pokemón">
+  <select class="Bonton-filtrarTipos" name="tipoDePokemon" id="selectTipoDePokemon">
+    <option value="">Tipo de Pokemón</option>
+    <option value="grass">Grass</option>
+    <option value="ground">Ground</option>
+    <option value="fire">Fire</option>
+    <option value="flying">Flying</option>
+    <option value="water">Water</option>
+    <option value="bug">Bug</option>
+    <option value="normal">Normal</option>
+    <option value="electric">Electric</option>
+    <option value="psychic">Psychic</option>
+    <option value="fairy">Fairy</option>
+    <option value="steel">Steel</option>
+    <option value="rock">Rock</option>
+    <option value="fighting">Fighting</option>
+    <option value="dark">dark</option>
+    <option value="ice">Ice</option>
+  </select>
+  <button type="button" id="botonFiltrarPokemon">Buscar</button>
+
   <div id="root" class="poke-container">
-    
+
 
 
   </div>
