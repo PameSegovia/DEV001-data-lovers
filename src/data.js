@@ -1,8 +1,5 @@
-//import {example} from './data.js';
-//import data from './data/pokemon/pokemon.js';
-//import data from "./data/pokemon/pokemon.js";
+//estamos exportando las funciones
 
-//estoy exportando la función
 export function resumeData(arregloPokemon) {
   const primerosDatos = [];
   arregloPokemon.forEach(element => {
@@ -11,21 +8,10 @@ export function resumeData(arregloPokemon) {
   return primerosDatos
 }
 
-//estoy exportando la función
+
 export function filtrarPokemonPorTipo(pokemones, tipoDePokeSeleccionadoPorUsuario) {
   return pokemones.filter((pokemon) => {
     return pokemon.type.includes(tipoDePokeSeleccionadoPorUsuario)
-  })
+    })
 }
 
-
-export function buscarPokemonPorNombre(pokemones, nombreDePokemon) {
-  return pokemones.filter((pokemon) => {
-    return pokemon.name.includes(nombreDePokemon)
-
-  })
-}
-//variedades.forEach((variedad)=> {
-//let  pruebaResult= filtrarPokemon(data.pokemon, variedad);
-//console.log(variedad, pruebaResult)
-//})
