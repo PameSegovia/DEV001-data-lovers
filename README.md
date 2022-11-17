@@ -24,8 +24,6 @@ Elegimos la temática Pokemón y nuestro sitio está enfocado en personas que co
 ## 3. Protótipo
 <a href="https://ibb.co/FYVNMz5"><img src="https://i.ibb.co/Wztqwfk/Captura-de-Pantalla-2022-11-16-a-la-s-20-35-42.png" alt="Captura-de-Pantalla-2022-11-16-a-la-s-20-35-42" border="0"></a>
 <a href="https://ibb.co/dkNpggP"><img src="https://i.ibb.co/ssT1HHK/Captura-de-Pantalla-2022-11-16-a-la-s-20-35-49.png" alt="Captura-de-Pantalla-2022-11-16-a-la-s-20-35-49" border="0"></a>
-En este proyecto construí una aplicación web que le permita a un usuario validar un número de una tarjeta de crédito. Le apliqué funcionalidad para que, al obtener la respuesta de si es válida o no, se oculten los números menos los últimos 4.
-
 
 ## 4. Interfaz
 
