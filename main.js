@@ -52,7 +52,6 @@ function pintarPokemones(pokemones) {
      <div class="pokeInfo">
       <h3  id=pokeInfo>${element.infoPoke} </h3>
      </div>
-  
    </div>
      
  </div> 
@@ -73,6 +72,8 @@ selectTipoDePokemon.addEventListener("change", (event) => {
    //llamo la función creada y utilizo la variable RESULTADO para pintar los pokemones en la interfaz.
    pintarPokemones(resultado);
 })
+
+
 //FUNCIÓN PARA EL SELECT ORDENAR POR NOMBRE//
 function ordenarPorNombre() {
    pokeCard.innerHTML = "";
@@ -89,6 +90,7 @@ function ordenarPorNombre() {
 }
 const selectName = document.getElementById('ordenarPorNombre');
 selectName.addEventListener('change', ordenarPorNombre);
+
 
 //FUNCION PARA EL SELECT ORDENAR POR NÚMERO//
 function ordenarPorNumero(event) {

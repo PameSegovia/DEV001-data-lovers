@@ -9,9 +9,6 @@
 </head>
 
 <body>
-  <header>
-
-  </header>
   <!-- Primera Pantalla -->
   <div id="contenedor1" class="contenedor1">
     <div class="bienvenida">
@@ -19,13 +16,16 @@
       <img class="imagenDos" src="https://fontmeme.com/permalink/221109/b3ef3cabd9dd2f9377a61e7678502057.png">
       <button type="submit" id="conocerMas" class="styleBtn1"><strong>Conoce todos los Pokémones</strong></button>
     </div>
-    <img class="imagenPikachu"
-      src="https://i0.wp.com/eltallerdehector.com/wp-content/uploads/2022/06/932c7-pikachu-saltando-png.png?resize=900%2C900&ssl=1">
+    <div class="imagenPikachu">
+      <img class="imagenPikachu"
+        src="https://i0.wp.com/eltallerdehector.com/wp-content/uploads/2022/06/932c7-pikachu-saltando-png.png?resize=900%2C900&ssl=1">
+    </div>
   </div>
 
+
   <!-- Segunda Pantalla, mostrando todos los pokemones -->
-  <div class="selectores" autofocus>
-    <select class="select" autofocus name="tipoDePokemon" id="selectTipoDePokemon">
+  <div class="selectores">
+    <select class="select" name="tipoDePokemon" id="selectTipoDePokemon">
       <option value=""><strong>Filtrar por Tipo</strong></option>
       <option value="grass">Grass</option>
       <option value="ground">Ground</option>

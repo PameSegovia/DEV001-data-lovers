@@ -6,7 +6,7 @@ body {
   flex-direction: column;
 }
 .contenedor1 {
-  background: #44A08D; 
+  background: #44A08D;
   width: 100%;
   display: flex;
   align-content: space-between;
@@ -29,6 +29,8 @@ body {
   width: 250x;
   height: 700px;
 }
+
+
 .styleBtn1 {
   border-radius: 10px;
   cursor: pointer;
@@ -131,6 +133,7 @@ body {
                 0 20px 20px rgba(0, 0, 0, .15) ;   
 }
 .selectores{
+  margin-top: 10px;
   padding: 5px;
   background: transparent ;
   display: flex;
@@ -140,7 +143,7 @@ body {
 .select{
   padding-left: 3px;
   background-color:#4169E1; 
-  margin-left: 10px;
+  margin: 10px;
   height: 50px;
   width: 180px;
   cursor: pointer;
@@ -151,6 +154,7 @@ body {
   font-family: Geo;
   font-size: 15px;
   color: #ece45b;
+
 }
 .select:hover{
   background-color: #6495ED;
@@ -175,8 +179,8 @@ body {
 }
 .tipo{
   font-family: Geneva;
-  letter-spacing: 1px;
-  font-size: 11px;
+  letter-spacing: 1px; 
+  font-size: 13px;
   color: #000;
 }
 .pokeInfo{
@@ -184,4 +188,47 @@ body {
   letter-spacing: 1px;
   font-size: 13px;
   color: #000;
+}
+
+@media only screen and (max-width:1000px) {
+  /* For tablets: */
+  .contenedor1, .bienvenida {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: auto;
+  }
+  .imagenUno, .imagenDos{
+    width: 100%;
+  }
+  .styleBtn1 {
+    width: 70%;
+    }
+  .imagenPikachu {
+    width: 60%;
+    height: 55%;
+    margin-left: 10%;
+  }
+  
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .contenedor1, .bienvenida {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin-top: auto;
+  }
+  .imagenUno, .imagenDos{
+    width: 100%;
+  }
+  .styleBtn1 {
+    width: 70%;
+    }
+  .imagenPikachu {
+    width: 60%;
+    height: 55%;
+    margin-left: 10%;
+  }
 }
